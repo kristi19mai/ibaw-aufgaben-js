@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Java Script and DOM</title>
+  </head>
+  <body>
+    <h1>Java Script and DOM</h1>
+    <section class="section-umkehren">
+      <h2>Einen String Umkehren</h2>
+      <div class="wrapper">
+        <form class="form">
+          <input type="text" name="text" id="string" placeholder="Ihr String" />
+          <button type="submit" id="stringSubmit">Bestätigen</button>
+        </form>
+        <h2>Ergebnis:</h2>
+        <p class="result-string"></p>
+      </div>
+    </section>
+    <section class="section-jahr">
+      <h2>Prüfen, ob das Jahr Schaltjahr ist</h2>
+      <div class="wrapper">
+        <form class="form">
+          <input type="text" id="jahr" placeholder="Jahr" />
+          <button type="submit" id="jahrSubmit">Prüfen</button>
+        </form>
+        <h2>Ergebnis:</h2>
+        <p class="result-jahr"></p>
+      </div>
+    </section>
+    <section class="section-pangramm">
+      <h2>Erkennen, ob ein Satz ein Pangramm ist</h2>
+      <div class="wrapper">
+        <form class="form">
+          <textarea
+            id="pangramm"
+            placeholder="Ihr Satz"
+            rows="4"
+            cols="50"
+          ></textarea>
+          <button type="submit" id="pangrammSubmit">Erkennen</button>
+        </form>
+        <h2>Ergebnis:</h2>
+        <p class="result-pangramm"></p>
+      </div>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>
