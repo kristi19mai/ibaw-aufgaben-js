@@ -108,10 +108,7 @@ const alphabet = [
   "v",
   "b",
   "n",
-  "m",
-  "ö",
-  "ä",
-  "ü",
+  "m"
 ];
 
 pangrammBtn.addEventListener("click", () => {
@@ -137,4 +134,4 @@ function erkennenPangramm(value) {
   return true;
 }
 
-// let str = "qwertzuiopüasdfghjklöäyxcvbnm";
+// let str = "qwertzuiopasdfghjklyxcvbnm";
